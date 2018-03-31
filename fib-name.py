@@ -1,4 +1,4 @@
-# Exercise 3 
+# Exercises 2 and 1
 
 # Ian McLoughlin
 # A program that displays Fibonacci numbers using people's names.
