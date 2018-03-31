@@ -1,3 +1,5 @@
+# Exercise 3
+
 # the Collatz conjecture, or n = 3n+1
 # written by Colm Doherty on 2018-02-08
 
