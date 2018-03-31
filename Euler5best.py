@@ -1,3 +1,5 @@
+# Exercise 4
+
 # Colm Doherty on 2018-02-22, based on an approach suggested by Chris Johnson at
 # https://stackoverflow.com/questions/31840761/project-euler-5-using-python
 # it works, but it's rather slow to print a result. I think it could be optimised.
