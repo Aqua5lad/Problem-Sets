@@ -1,5 +1,7 @@
 # Ian McLoughlin
 # A program that displays Fibonacci numbers using people's names.
+# Edited by Colm Doherty to return the nth Fibonacci number where n is the sum 
+# of the first and last letters of my Surname as numbers.
 
 def fib(n):
   """This function returns the nth Fibonacci number."""
