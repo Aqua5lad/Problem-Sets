@@ -6,10 +6,13 @@
 # Test the function by calling it with the values 5, 7, and 10.
 
 
-def factorial(x):
-    answer = 1
-    for i in range(1, x + 1):
+def factorial(x):   # Create an input for the calculation that will generate the answer
+    answer = 1     #  Assign a starting value for the calculation
+
+    for i in range(1, x+1):  
+        # define a range from the starting value up to the input value
         answer *= i
+        # define the operator for each step (in this case multiplication)
     return answer 
 
 print("Factorial 5 is:", factorial(5))
