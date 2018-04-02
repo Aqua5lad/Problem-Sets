@@ -9,13 +9,23 @@
 # odd, and you multiply it by 3 and add 1, then no matter what term 
 # you start with, the sequence will always reach 1. 
 
-n = 27
-print (n)
+n = 27      #state the chosen start value
+print (n)   #display the chosen start value
 
 while n <=10000 and (n != 1) :
-    if (n % 2 == 0): 
+            # while the value is not 1, and less than 10,000 
+    if (n % 2 == 0):
+            # if its an even number 
         n = n//2
+            # divide it by 2
         print (n)
+            # and display the result
     else:
+            # otherwise it's odd, so
         n = (n*3)+1
+            # multiply it by 3 and add 1
+            # this loops continually until the value falls to 1
         print (n)
+            # display the sequence
+
+# what have the romans ever done for us?
