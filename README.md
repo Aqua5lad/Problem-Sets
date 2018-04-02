@@ -2,7 +2,7 @@
 
 ## Purpose of this repository
 
-This Problem-Sets repository contains my solutions to the weekly exercises, each in a separate file, named for the exercise number to which it refers. 
+This Problem-Sets repository contains my solutions to the weekly exercises, each in a separate file, named for the main topic to which it refers. 
 
 ### Other comments
 
