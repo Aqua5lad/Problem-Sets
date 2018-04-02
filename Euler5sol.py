@@ -11,8 +11,8 @@
 
 result = None
 n = 2520
-# n = smallest value evenly divisible by i. we are told that 2520 is the 
-# smallest value evenly disable by range (1,10), so n must be > 2520
+        # n = smallest value evenly divisible by i. we are told that 2520 is the 
+        # smallest value evenly disable by range (1,10), so n must be > 2520
 
 while not result:
     n = n + 1
@@ -20,12 +20,13 @@ while not result:
         if n % i:
             break
 
-# for as long as no even number results from n / i, keep adding 1 until it does   
+        # for as long as no even number results from n / i, keep adding 1 until it does   
     else:
+        # otherwise, return the result
         result = n
-# as this is the first even number found, while adding 1 each time, its the lowest one
+        # as this is the first even number found, while adding 1 each time, its the lowest one
 
 print("the result is:",result)
-
+        # prints the value of the result
 
 # And now for something completely different
