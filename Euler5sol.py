@@ -2,7 +2,7 @@
 
 # Colm Doherty on 2018-02-22, based on an approach suggested by Chris Johnson at
 # https://stackoverflow.com/questions/31840761/project-euler-5-using-python
-# it works, but it takes 3 mins to print a result. I think it could be optimised, 
+# it works, but takes over 3 mins to print a result. I think it could be optimised, 
 # but I have not yet found the time to experiment with it!
 # It returns the result as 232792560
 
