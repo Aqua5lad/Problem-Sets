@@ -1,9 +1,9 @@
 # Exercises 2 and 1
 
-# Ian McLoughlin
-# A program that displays Fibonacci numbers using people's names.
-# Edited by Colm Doherty to return the nth Fibonacci number where n is the sum 
-# of the first and last letters of my Surname as numbers.
+# Ian McLoughlin provided the initial code for a program that
+# displays Fibonacci numbers using people's names. It returns
+# the nth Fibonacci number where n is the sum of the positions 
+# of the first and last letters of a Surname defined as 'name'.
 
 def fib(n):
   """This function returns the nth Fibonacci number."""
@@ -36,8 +36,8 @@ print("Fibonacci number", x, "is", ans)
 # My surname is Doherty
 # The first letter D is number 68
 # The last letter y is number 121
-
-# Fibonacci number 189 is 1409869790947669143312035591975596518914
+# The sum of 68 and 121 is 189
+# the Fibonacci number for 189 is 1409869790947669143312035591975596518914
 
 # What ‘Ord()’ does is to return an integer, equivalent to the position of the value in brackets, at its place in the order of ASCII decimals.
 
