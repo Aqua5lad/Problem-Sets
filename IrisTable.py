@@ -17,7 +17,7 @@ with open("data/iris.csv") as f:
         
             # split it into its four constituent elements (petal length, petal width, sepal length, sepa width) and
             # print the data for each, using the {:n} syntax to give each printed element a width of n, where n is {:n}
-                
+            # REF: Python Tutorial "7.1. Fancier Output Formatting"    
 
                 
 # When you're chewing on life's gristle, Don't grumble, give a whistle   
