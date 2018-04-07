@@ -9,7 +9,7 @@
 # odd, and you multiply it by 3 and add 1, then no matter what term 
 # you start with, the sequence will always reach 1. 
 
-n = 27      #state the chosen start value
+n = 17      #state the chosen start value
 print (n)   #display the chosen start value
 
 while n <=10000 and (n != 1) :
