@@ -10,7 +10,8 @@ def factorial(x):   # Create an input for the calculation that will generate the
     answer = 1     #  Assign a starting answer value for the calculation loop
 
     for i in range(1, x+1):  
-        # define a range from the starting value up to the input value
+        # define a range from the starting value up to the input value for factorial
+        # coded in the print statements below.
         answer *= i
         # define the operator for each step (in this case multiplication)
     return answer 
