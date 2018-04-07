@@ -16,7 +16,7 @@ with open("data/iris.csv") as f:
         print('{:4} {:4} {:4} {:4}'.format(line.split(',')[0], line.split(',')[1], line.split(',')[2], line.split(',')[3]))
         
             # split it into its four constituent elements (petal length, petal width, sepal length, sepa width) and
-            # add the data for each, using the {:n} syntax to give each printed element a width of n, where n is {:n}
+            # print the data for each, using the {:n} syntax to give each printed element a width of n, where n is {:n}
                 
 
                 
