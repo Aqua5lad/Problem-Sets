@@ -11,7 +11,7 @@ In each file, the corresponding Exercise number is shown on the 1st comment line
 Exercise Number  | File Name
 ---------------- | -------------
 
-Exercises 1 & 2  | fib-name.py
+Exercises 1 & 2  | fib-name.py -
 Exercise 3       | Collatz.py 
 Exercise 4       | Euler5sol.py
 Exercise 5       | IrisTable.py
