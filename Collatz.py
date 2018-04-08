@@ -7,14 +7,16 @@
 # The Collatz Conjecture states that, starting with a positive Integer,
 # if the previous term is even, and you divide it by 2, or if it is
 # odd, and you multiply it by 3 and add 1, then no matter what term 
-# you start with, the sequence will always reach 1. We are given a 
-# start value for 'n' of 17.
+# you start with, the sequence will always reach 1. I have invited the
+# user to enter a start value for 'n'.
 
-n = 17      #state the given start value
-print (n)   #display the chosen start value
+n = int(input("enter a starting value for the Collatz Conjecture:"))     
+#state the chosen start value
+print (n)
+#display the chosen start value
 
 while n <=10000 and (n != 1) :
-            # while the value is not 1, and less than 10,000 
+            # while the value is not 1, and less than 10,000 (to prevent it running for too long) 
     if (n % 2 == 0):
             # if its an even number 
         n = n//2
